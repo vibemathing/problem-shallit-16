@@ -208,72 +208,82 @@ This file is generated from repository truth and bounded for the web channel. It
     "acceptance": {
       "policy": "solution-admission-v1"
     },
-    "aliases": [],
+    "aliases": [
+      "shallit-16",
+      "Shallit BC4 Open Problem 16: Finite-language star infinitude complexity"
+    ],
     "allowed_axioms": [
       "none"
     ],
     "assumptions": [
-      "This record must never be treated as an active research problem."
+      "No mathematical claim is admitted from the bounty title alone.",
+      "Source status and award status are observations, not mathematical Results."
     ],
     "constraints": {
       "allowed_adapters": [
-        "template-validation-v1"
+        "source-fidelity-review-v1"
       ],
       "allowed_methods": [
         "discovery"
       ],
       "max_attempts": 1,
       "runtime": {
-        "max_output_bytes": 65536,
+        "max_output_bytes": 262144,
         "max_retries": 1,
-        "max_transitions": 10,
-        "timeout_seconds": 60
+        "max_transitions": 20,
+        "timeout_seconds": 300
       }
     },
-    "created_at": "2026-09-06T00:00:00Z",
+    "created_at": "2026-09-08T08:24:29Z",
     "definitions": [
       {
-        "definition": "A non-admitted draft record used only to validate the physical public repository template.",
-        "term": "template placeholder"
+        "definition": "The problem identified by the Project Problem Key and cited source URLs; not yet an admitted mathematical statement.",
+        "term": "draft bounty target"
       }
     ],
     "domain": {
-      "description": "Template-only placeholder domain; not a mathematical research question.",
+      "description": "Draft source-native bounty problem intake; exact mathematical domain remains subject to statement-faithfulness review.",
       "objects": [
-        "template-placeholder"
+        "objects explicitly named by the cited problem source"
       ]
     },
     "lifecycle": "draft",
     "msc": [
       "00A00"
     ],
-    "problem_id": "problem:template-placeholder",
+    "problem_id": "problem:shallit-16",
     "quantifiers": [
       {
-        "domain": "a reviewed public canonical ProblemContract supplied by the repository builder",
+        "domain": "an exact, source-faithful ProblemContract for the cited bounty problem",
         "kind": "find",
         "variables": [
-          "replacement_problem"
+          "reviewed_problem_contract"
         ]
       }
     ],
     "schema_version": "1.0.0",
     "sources": [
       {
-        "retrieved_at": "2026-09-06T00:00:00Z",
-        "source": "Vibe Mathing public Web Harness",
-        "source_record_id": "public-template-placeholder-v1",
-        "url": "https://github.com/vibemathing/vibe-mathing-problem-public-template"
+        "retrieved_at": "2026-09-08T08:24:29Z",
+        "source": "Bounty problem source",
+        "source_record_id": "shallit-16",
+        "url": "https://cs.uwaterloo.ca/~shallit/Talks/bc4.pdf"
+      },
+      {
+        "retrieved_at": "2026-09-08T08:24:29Z",
+        "source": "Vibe Mathing Project #2 bounty intake",
+        "source_record_id": "shallit-16",
+        "url": "https://github.com/users/vibemathing/projects/2"
       }
     ],
     "statement": {
       "language": "en",
-      "text": "This is a non-research placeholder. Replace it with exactly one reviewed public ProblemContract before creating a public problem repository.",
+      "text": "Draft bounty intake target(s): Shallit BC4 Open Problem 16: Finite-language star infinitude complexity. The exact mathematical statement, quantifiers, definitions, assumptions, and acceptance conditions have not yet been frozen; this draft is not research-admitted.",
       "version": 1
     },
-    "title": "Vibe Mathing public problem repository template placeholder",
-    "updated_at": "2026-09-06T00:00:00Z"
+    "title": "Shallit BC4 Open Problem 16: Finite-language star infinitude complexity",
+    "updated_at": "2026-09-08T08:24:29Z"
   },
-  "problem_contract_sha256": "e64cd03254e03dd661eade23243c3c21793fc2d8bffa2d33c172cf8ed2e7f940"
+  "problem_contract_sha256": "f3f2a73289bd22903ad090a049d1e5f7c73acb9e9c04c6ea95364593503ae1e9"
 }
 ```
